@@ -1,0 +1,17 @@
+These files show how to embed Foldie links in other documents.
+
+The Pages and Keynote documents show that you can embed links to sibling documents and self-reference the current document.
+
+The Numbers and Excel documents show how you can construct Foldie Links which can then be opened with Foldie.
+
+Limitations
+=========
+
+You can open the Foldie links in Pages, Numbers and Keynote both on Mac and iOS.
+When you preview a Pages, Numbers or Keynote document within Foldie using the Eye button, the links within those documents may not be clickable.
+
+Background:
+- Quicklook previews on iPhone and iPad allow tapping links.
+- Quicklook on Mac does not allow clicking links.
+
+This is not a big problem, because you can have many apps and windows open on the Mac.

@@ -1,0 +1,4 @@
+Mount/Mount.txt
+This file is mounted in TestOverlay at CommonFolder/Mount.txt.
+
+Virtual location: foldie://TestOverlay/CommonFolder/Mount.txt

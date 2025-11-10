@@ -1,0 +1,5 @@
+BaseFile.txt content
+This file is bookmarked as a Base File with name Test/BaseFile.txt.
+It is mounted in TestOverlay at CommonFolder/TestBaseFile.txt.
+
+Virtual location: foldie://TestOverlay/CommonFolder/TestBaseFile.txt

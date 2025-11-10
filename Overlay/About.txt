@@ -1,0 +1,30 @@
+This example demonstrates the construction of folder overlays.
+Note: it requires to activate the trial period or to buy the "Related Files" feature pack.
+
+We construct TestOverlay as a virtual folder consisting of 4 base folders and one base file.
+You can do this manually or press in Manage => Data => Generate Data => the "Create Overlay" button.
+
+Step 1: Prepare 
+============
+Register the folders of this directory as base folders and change the name of the folder references such by prefixing "Test".
+Normal -> TestNormal
+Path -> TestPath
+Mount -> TestMount
+FolderTemplate -> TestFolderTemplate
+
+Register the file BaseFile.txt as a base file and change its reference name as Test/BaseFile.txt.
+
+Step 2: Construct
+=============
+Create a new virtual folder with name "TestOverlay".
+Reference folder Normal in a simple way using TestNormal.
+Reference the subfolder Path/Content by adding TestPath and setting Content as path.
+Reference Mount/Mount.txt as TestOverlay/CommonFolder/Mount.txt by adding TestMount and setting CommonFolder as the mount path.
+Reference FolderTemplate via TestFolderTemplate twice: at AppliedTemplate/Folder1 and at AppliedTemplate/Folder2.
+
+Add BaseFile.txt as TestOverlay/CommonFolder/TestBaseFile.txt by choosing the Test/BaseFile.txt and setting CommonFolder/TestBaseFile.txt as mount path.
+
+Step 3: Explore
+============
+Browse the TestOverlay and see how items from different folders are merged into the virtual folder.
+Try different display styles (from the browser toolbar).

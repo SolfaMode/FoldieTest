@@ -1,0 +1,2 @@
+Path/Content/PathFolder/PathFolderFile.txt
+Virtual location: foldie://TestOverlay/PathFolder/PathFolderFile.txt

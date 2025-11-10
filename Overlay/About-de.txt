@@ -1,0 +1,30 @@
+Dieses Beispiel demonstriert die Konstruktion von Ordner-Overlays.
+Hinweis: Hierfür ist die Aktivierung der Testphase oder der Kauf des Funktionspakets „Verwandte Dateien“ erforderlich.
+
+Wir erstellen TestOverlay als virtuellen Ordner, der aus 4 Basisordnern und einer Basisdatei besteht.
+Sie können dies manuell tun oder unter Verwalten => Daten => Daten generieren => auf die Schaltfläche „Overlay erzeugen“ klicken.
+
+Schritt 1: Vorbereiten
+======================
+Registrieren Sie die Ordner dieses Verzeichnisses als Basisordner und ändern Sie die Namen der Ordnerreferenzen, indem Sie ihnen „Test“ voranstellen.
+Normal -> TestNormal
+Path -> TestPath
+Mount -> TestMount
+FolderTemplate -> TestFolderTemplate
+
+Registrieren Sie die Datei BaseFile.txt als Basisdatei und ändern Sie ihren Referenznamen in Test/BaseFile.txt.
+
+Schritt 2: Konstruieren
+====================
+Erstellen Sie einen neuen virtuellen Ordner mit dem Namen „TestOverlay“.
+Referenzieren Sie den Ordner Normal auf einfache Weise mithilfe von TestNormal.
+Referenzieren Sie den Unterordner Path/Content, indem Sie TestPath hinzufügen und Content als Pfad festlegen.
+Referenzieren Sie Mount/Mount.txt als TestOverlay/CommonFolder/Mount.txt, indem Sie TestMount hinzufügen und CommonFolder als Mount-Pfad festlegen.
+Referenzieren Sie FolderTemplate mittels TestFolderTemplate zweimal: unter AppliedTemplate/Folder1 und unter AppliedTemplate/Folder2.
+
+Fügen Sie BaseFile.txt als TestOverlay/CommonFolder/TestBaseFile.txt hinzu, indem Sie Test/BaseFile.txt auswählen und CommonFolder/TestBaseFile.txt als Mount-Pfad festlegen.
+
+Schritt 3: Erkunden
+===================
+Browsen Sie TestOverlay und sehen Sie, wie Elemente aus verschiedenen Ordnern im virtuellen Ordner zusammengeführt werden.
+Probieren Sie verschiedene Anzeigestile aus (über die Symbolleiste des Browsers).

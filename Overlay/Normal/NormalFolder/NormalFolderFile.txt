@@ -1,0 +1,3 @@
+Normal/NormalFolder/NormalFolderFile.txt content
+
+Virtual location: foldie://TestOverlay/NormalFolder/NormalFolderFile.txt

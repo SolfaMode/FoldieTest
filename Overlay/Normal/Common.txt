@@ -1,0 +1,4 @@
+Normal/Common.txt
+Virtual location: foldie://TestOverlay/Common.txt
+
+This file's virtual location is shared with other files.

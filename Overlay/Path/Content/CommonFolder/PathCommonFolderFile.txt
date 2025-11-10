@@ -1,0 +1,2 @@
+Path/Content/CommonFolder/PathCommonFolderFile.txt content
+Virtual location: foldie://TestOverlay/CommonFolder/PathCommonFolderFile.txt

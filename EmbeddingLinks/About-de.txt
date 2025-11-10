@@ -1,0 +1,17 @@
+Diese Dateien zeigen, wie Sie Foldie-Links in andere Dokumente einbetten können.
+
+Die Pages- und Keynote-Dokumente veranschaulichen, wie Sie Links zu benachbarten Dokumenten einbetten und auf das aktuelle Dokument verweisen können.
+
+Die Numbers- und Excel-Dokumente zeigen, wie Sie Foldie-Links erstellen, die anschließend mit Foldie geöffnet werden können.
+
+Einschränkungen
+==============
+
+Sie können die Foldie-Links in Pages, Numbers und Keynote sowohl auf dem Mac als auch unter iOS öffnen.
+Wenn Sie ein Pages-, Numbers- oder Keynote-Dokument in Foldie mithilfe der Augen-Knopfes in der Vorschau anzeigen, sind die Links in diesen Dokumenten möglicherweise nicht anklickbar.
+
+Hintergrund:
+- QuickLook-Vorschauen auf iPhone und iPad ermöglichen das Tippen auf Links.
+- QuickLook auf dem Mac erlaubt kein Klicken auf Links.
+
+Dies stellt kein großes Problem dar, da Sie auf dem Mac viele Apps und Fenster gleichzeitig geöffnet haben können.
