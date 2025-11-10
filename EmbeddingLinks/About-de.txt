@@ -15,3 +15,10 @@ Hintergrund:
 - QuickLook auf dem Mac erlaubt kein Klicken auf Links.
 
 Dies stellt kein großes Problem dar, da Sie auf dem Mac viele Apps und Fenster gleichzeitig geöffnet haben können.
+
+
+Excel Einschränkungen
+=====================
+
+- Excel zeigt vor dem Öffnen von Foldie-Links eine Warnung.
+- In Quicklook funktionieren Links in Excel-Dateien möglicherweise nicht.
